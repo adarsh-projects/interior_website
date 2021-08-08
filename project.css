@@ -223,7 +223,7 @@
     justify-content: flex-start;
     box-sizing: border-box;
 }
-.address_block11_text .address_block12_text{
+.address_block11_text, .address_block12_text{
     display: block;
     position: absolute;
     height: auto;
