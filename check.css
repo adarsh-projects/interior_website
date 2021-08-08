@@ -1,0 +1,50 @@
+.img11 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pdetails {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5F5F5F;
+}
+
+.img11:hover .image {
+    opacity: 0.1;
+}
+
+.img11:hover .pdetails {
+    opacity: 1;
+}
+
+.pdetails {
+  color: white;
+}
+.view_project_button{
+  background-color: transparent;
+  color: black;
+  font-size: 1.2rem;
+  display: block;
+  position: relative;
+  padding: 1.2rem 1.2rem;
+  /*color: white;
+  width: 20%;
+  height: auto;
+  background-color: transparent;
+  border: 0.1rem solid white;*/
+}
+.view_project_button:hover{
+  color: white;
+	background-color: #ffffff;	
+	transform: scale(1.1);
+  /*transform: scale(1.6);*/
+}

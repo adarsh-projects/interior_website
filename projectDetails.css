@@ -1,0 +1,138 @@
+.sec2{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.sec2_container{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.pdrow{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.pdrow_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10rem 15rem 10rem 15rem;
+}
+.pdcol1, .pdcol2{
+    flex: 1 1 50%;
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.pdcol1_container, .pdcol2_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin: 0rem 5rem 0rem 5rem;
+    justify-content: center;
+    flex-direction: column;
+}
+/* img */
+.pdimg1, .pdimg2, .pdimg3, .pdimg4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.pdimg1_container, .pdimg2_container, .pdimg3_container, .pdimg4_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+.pdimg{
+    width: 100%;
+    height: 90%;
+    display: block;
+    position: relative;
+    justify-content: center;
+}
+
+/* text */
+
+.pdaddress, .pdh1, .pdh2, .pdh3, .pdp1, .pdp2, .pdp3, .pdp4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.pdaddress_container, .pdh1_container, .pdh2_container
+, .pdh3_container, .pdp1_container, .pdp2_container,
+ .pdp3_container, .pdp4_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.pdaddress_text{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    justify-content: flex-start;
+    font-size: 1.3rem !important;
+    font-family: serif;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: black
+}
+.pdh_text{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 2rem;
+    position: relative;
+    justify-content: flex-start;
+    font-size: 3.2rem !important;
+    font-family: Playfair Display, serif !important;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: black
+}
+.pdp_text{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    justify-content: flex-start;
+    font-size: 1.8rem !important;
+    font-family: Playfair Display, serif !important;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    color: black
+}
+.pdinfo_text{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    justify-content: flex-start;
+    font-size: 1.6rem !important;
+    font-family: Playfair Display, serif !important;
+    font-weight: 300;
+    line-height: 2;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    color: black
+}

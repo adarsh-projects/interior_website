@@ -1,0 +1,28 @@
+.img11_container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;;
+    height: auto;
+  }
+  
+  .pdetails_container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .img11_container:hover .pdetails_container {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,235 @@
+
+    * {box-sizing: border-box;}
+    
+    body {
+        font-family: Playfair Display, serif; 
+        margin:0rem;
+    }
+    
+    .mySlides {
+        display: inline-block;
+    }
+    
+    img {
+      min-width: 100%;
+      height: 71.0rem;
+      vertical-align: middle;
+    }
+    
+    .sec2{
+        min-width: 100%;
+        min-height: auto;
+        display: block;
+        margin-bottom: 10rem;
+        position: relative;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      width: 100%;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */ 
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 1.6rem;
+      margin-top: -2.2rem;
+      color: white;
+      font-weight: bold;
+      font-size: 1.8rem;
+      transition: 0.6s ease;
+      border-radius: 0 0.3rem 0.3rem 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 0.3rem 0 0 0.3rem;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 1.5rem;
+      padding: 0.8rem 1.2rem;
+      position: absolute;
+      bottom: 0.8rem;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .address {
+      height: 100%;
+      min-width: auto;
+      display: flex;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      position: absolute;
+    }
+    .address_container{
+      height: 100%;
+      min-width: auto;
+      justify-content: center;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+    }
+    .address_block1{
+      height: auto;
+      width: auto;
+      margin: 0rem 0rem -2.5rem 9.5rem;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .address_block_container1{
+      height: auto;
+      width: auto;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .address_text{
+      font-size: 1.6rem;
+      font-family: Playfair Display, serif!important;
+      color: white;
+      letter-spacing: 0.1rem;
+      display: block;
+      white-space: nowrap;
+    }
+    .address_block2{
+      height: auto;
+      width: auto;
+      margin: 2rem 0rem 0rem 9.5rem;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .address_block_container2{
+      height: auto;
+      width: auto;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .heading{
+      font-size: 3.8rem;
+      font-family: Playfair Display, serif !important;
+      color: white;
+      text-align: left;
+      font-weight: 500;
+      display: block;
+      letter-spacing: 0.1rem;
+      white-space: nowrap;
+    }
+    .address_block3{
+      height: auto;
+      width: auto;
+      margin: -1rem 0rem 0rem 9.5rem;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .address_block_container3{
+      height: auto;
+      width: auto;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .address_block4{
+      height: auto;
+      width: auto;
+      margin: -1rem 0rem 0rem 9.5rem;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .address_block_container4{
+      height: auto;
+      width: auto;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .learn_more{
+      height: auto;
+      width: auto;
+      margin: 2rem 0rem 0rem 9.8rem;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .learn_more_container{
+      height: auto;
+      width: auto;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .learnmore_text{
+      font-family: Playfair Display, serif !important;
+      font-size: 1.3rem;
+      color: white;
+      text-align: left;
+      font-weight: 500;
+      display: block;
+      letter-spacing: 0.1rem;
+      white-space: nowrap;
+    }
+    .description{
+      height: auto;
+      width: auto;
+      margin: -1rem 0rem 0rem 9.5rem;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .description_container{
+      height: auto;
+      width: auto;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    .description_info{
+      font-family: Playfair Display, serif !important;
+      font-size: 2rem;
+      color: white;
+      text-align: left;
+      font-weight: 500;
+      display: block;
+      letter-spacing: 0.1rem;
+      white-space: nowrap;
+    }
+    .active{
+      background-color: #717171;
+    }
+    
+    .w3-animate-left{
+        position:relative;
+        animation:animateright 0.4s
+    }
+    @keyframes animateright{
+        from{
+            right:-300px;
+            opacity:0;
+        } 
+        to{
+            right:0px;
+            opacity:1;
+        }
+    }
