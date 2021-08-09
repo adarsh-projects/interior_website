@@ -58,8 +58,8 @@
     justify-content: center;
 }
 .asimg2{
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: block;
     position: relative;
 }
@@ -90,6 +90,9 @@
     font-family: serif;
     letter-spacing: 0.1rem;
 }
+.asrow1col2_des_text{
+    margin-top: 5rem;
+}
 .asrow1col2_head_text{
     font-size: 3.5rem;
     font-weight: bold;
@@ -104,23 +107,20 @@
     margin-top: 4rem;
 }
 .asrow1col2_link_text{
-    width: 50%;
-    height: auto;
+    width: 20rem;
+    height: 5rem;
     display: block;
     position: relative;
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.7rem;
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
+.asrow1col2_link_text:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+    background-color: black;
+    color: white;
+}
