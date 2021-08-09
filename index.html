@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="home_about_sec.css">
     <link rel="stylesheet" href="home_team_sec.css">
+    <link rel="stylesheet" href="review.css">
 </head>
 <body>
   <div class="main">
@@ -499,7 +500,122 @@
             </div>
         </div>
     </section>
-    
+    <!--home review section-->
+    <section class="f1sec">
+        <div class="f1sec_container" style="margin-bottom: 5rem;">
+            <div class="f1header">
+                <div class="f1header_container">
+                    <h1 class="f1text"> What Clients Say</h1>
+                </div>
+            </div>
+            <div class="f1description">
+                <div class="f1description_container">
+                    <h1 class="f1text1" style="margin-top: 3rem;"> We place huge value on strong relationships and have seen the benefit they 
+                        <br>bring to our business. Customer feedback is vital in helping us to get it right.
+                    </h1>
+                </div>
+            </div>
+            <div class="freview">
+                <div class="freview_container">
+                    <div class="f1col1">
+                        <div class="f1col1_container">
+                            <div class="fprofile">
+                                <div class="fprofile_container">
+                                    <img src="team1.jpg" class="fimg">
+                                </div>
+                            </div>
+                            <div class="freviewtext">
+                                <div class="freviewtext_container">
+                                    <p class="freviewtext1"><b style="font-size: 4.6rem;"> &#8220; </b> Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin.  <br> <b style="font-size: 4.6rem; line-height: 4rem;">&#8221;</b></p>
+                                </div>
+                            </div>
+                            <div class="fname">
+                                <div class="fname_container">
+                                    <p class="fanmetext"> Nat Reynolds</p>
+                                </div>
+                            </div>
+                            <div class="fdesignation">
+                                <div class="fdesignation_container">
+                                    <p class="fdesignationtext"> Chief Accountant </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1col2">
+                        <div class="f1col2_container">
+                            <div class="fprofile">
+                                <div class="fprofile_container">
+                                    <img src="tem2.jpg" class="fimg">
+                                </div>
+                            </div>
+                            <div class="freviewtext">
+                                <div class="freviewtext_container">
+                                    <p class="freviewtext1"><b style="font-size: 4.6rem;"> &#8220; </b> Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin.  <br> <b style="font-size: 4.6rem; line-height: 4rem;">&#8221;</b></p>
+                                </div>
+                            </div>
+                            <div class="fname">
+                                <div class="fname_container">
+                                    <p class="fanmetext"> Bob Roberts </p>
+                                </div>
+                            </div>
+                            <div class="fdesignation">
+                                <div class="fdesignation_container">
+                                    <p class="fdesignationtext"> Sales Manager </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1col3">
+                        <div class="f1col3_container">
+                            <div class="fprofile">
+                                <div class="fprofile_container">
+                                    <img src="tem3.jpg" class="fimg">
+                                </div>
+                            </div>
+                            <div class="freviewtext">
+                                <div class="freviewtext_container">
+                                    <p class="freviewtext1"><b style="font-size: 4.6rem;"> &#8220; </b> Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin.  <br> <b style="font-size: 4.6rem; line-height: 4rem;">&#8221;</b></p>
+                                </div>
+                            </div>
+                            <div class="fname">
+                                <div class="fname_container">
+                                    <p class="fanmetext"> Celia Almeda </p>
+                                </div>
+                            </div>
+                            <div class="fdesignation">
+                                <div class="fdesignation_container">
+                                    <p class="fdesignationtext"> Secretary </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hcsec">
+        <div class="hcsec_container">
+            <div class="hcrow">
+                <div class="hcrow_container">
+                    <div class="hccol1">
+                        <div class="hccol1_container">
+                            <!--Contact information-->
+                        </div>
+                    </div>
+                    <div class="hccol2">
+                        <div class="hccol2_container">
+
+                        </div>
+                    </div>
+                    <div class="hccol3">
+                        <div class="hccol3_container">
+                            <div id="googleMap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="sec5">
         <div class="sec5_container">
             <div class="frow">
@@ -575,6 +691,18 @@
         </div>          
     </section>
 </div>
+<script>
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    
 <script src="slide.js"></script>
 </body>
 </html>
