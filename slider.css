@@ -42,7 +42,7 @@
       color: white;
       font-weight: bold;
       font-size: 1.8rem;
-      transition: 0.6s ease;
+      transition: 0.1s ease;
       border-radius: 0 0.3rem 0.3rem 0;
       user-select: none;
     }
@@ -221,7 +221,7 @@
     
     .w3-animate-left{
         position:relative;
-        animation:animateright 0.4s
+        animation:animateright 0.3s
     }
     @keyframes animateright{
         from{

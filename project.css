@@ -23,15 +23,22 @@
     width: 100%;
     color: black;
     display: flex;
+    margin-top: 1rem;
+    margin-right: 5rem;
     justify-content: flex-end;
     position: relative;
 }
 
 .more_text{
+    background-color: transparent;
     color: black;
     font-size: 2.0rem;
-    margin-right: 12rem;
-    margin-top: -5rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+.more_text:hover{
+    transform: scale(1.1);
+    background-color: blanchedalmond;
 }
 .col11, .col12, .col13{
     flex: 1 1 33.3%;
@@ -95,15 +102,14 @@
     position: relative;
     justify-content: center;
 }
-.frow1{
+.frow2, .frow1{
     min-width: 100%;
     height: auto;
     display: flex;
-    margin: 0rem 10rem 5rem 0rem;
     position: relative;
     justify-content: center;
 }
-.frow1_container{
+.frow2_container, .frow1_container{
     min-width: 100%;
     height: auto;
     display: flex;
@@ -111,12 +117,14 @@
     margin: 0rem 10rem 0rem 10rem;
     justify-content: center;
 }
+.frow2_container{
+    margin-top: 5rem;
+}
 .scol1{
     min-width: 100%;
     height: auto;
     justify-content: center;
     display: flex;
-    margin: -5rem 10rem 0rem 10rem;
     position: relative;
     flex-direction: row;
 }
@@ -192,7 +200,7 @@
     height: auto;
     display: flex;
     position: absolute;
-    margin-top: 15rem;
+    margin-top: 13rem;
     justify-content: flex-start;
     box-sizing: border-box;
     margin-left: 0.8rem;
@@ -241,10 +249,10 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: 12rem;
     position: absolute;
     justify-content: flex-start;
     margin-left: 0.6rem;
+    margin-top: 15rem;
     box-sizing: border-box;
 }
 

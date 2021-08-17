@@ -99,6 +99,8 @@
   justify-content: center;
 }
 .f1col1:hover{
+  /* if there is any problem after loading then delete this line*/
+  transform: scale(1.05);
   border-radius: 2.0rem;
   box-shadow: .2rem .4rem .4rem .5rem rgba(0, 0, 0, 0.2), .2rem .6rem 2.0rem .5rem rgba(0, 0, 0, 0.19);
 }
@@ -228,7 +230,7 @@
   justify-content: flex-end;
 }
 .owl-prev:hover, .owl-next:hover{
-  background-color: #e6e6e6 !important;
+  background-color: transparent !important;
 }
 span{
   width: 5.0rem;
