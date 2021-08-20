@@ -56,9 +56,6 @@ span{
   border-radius: 50%;
   background-color: transparent !important;
 }
-span:hover{
-  color: white;
-}
 .contectarea{
   width: 100%;
   height: auto;
@@ -78,6 +75,7 @@ span:hover{
   height: auto;
   display: block;
   position: relative;
+  margin-top: 10rem;
 }
 .sec4_container{
   width: 100%;
@@ -106,14 +104,13 @@ span:hover{
 
 .more_text{
   background-color: transparent;
-  color: black;
+  color: white;
   font-size: 2.0rem;
   height: 4.0rem;
   border-radius: .5rem;
 }
 .more_text:hover{
   transform: scale(1.1);
-  background-color: blanchedalmond;
 }
 .col11, .more_project{
   width: 100%;
@@ -141,18 +138,18 @@ span:hover{
 }
 
 .img11:hover .pimg {
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 .img11:hover .pdetails {
   opacity: 1;
+  letter-spacing: .2rem;
 }
 .img11_container{
   width: 100%;
   min-height: 100%;
   justify-content: center;
   display: flex;
-  margin-left: .5rem;
   position: relative;   
 }
 
@@ -212,11 +209,12 @@ span:hover{
 
 .pdetails_container{
   height: auto;
-  width: 100%;
+  width: 80%;
+  left: 20%;
+  top: 10%;
   justify-content: center;
   box-sizing: border-box;
   display: flex;
-  margin: 0rem 0rem 0rem 5.0rem;
   flex-direction: column;
   position: absolute;
 }
@@ -233,8 +231,6 @@ span:hover{
 .year_container{
   height: auto;
   width: auto;
-  margin-left: 1.0rem;
-  margin-top: 1.0rem;
   box-sizing: border-box;
   display: flex;
   position: absolute;
@@ -245,6 +241,7 @@ span:hover{
   position: absolute;
   height: auto;
   width: 100%;
+  z-index: 1;
   color: white;
   font-weight: 100;
   letter-spacing: .1rem;
@@ -255,22 +252,20 @@ span:hover{
 .address_block11{
   width: 100%;
   height: auto;
+  margin-top: 14rem;
   display: flex;
   position: absolute;
-  margin-top: 13.0rem;
   justify-content: flex-start;
   box-sizing: border-box;
-  margin-left:  .8rem;
 }
 .address_block12{
   width: 100%;
   height: auto;
   display: flex;
+  margin-top: 22rem;
   position: absolute;
-  margin-top: 20.0rem;
   justify-content: flex-start;
   box-sizing: border-box;
-  margin-left: .8rem;
 }
 .address_block11_container{
   width: 100%;
@@ -293,12 +288,11 @@ span:hover{
   position: absolute;
   height: auto;
   font-weight: bold;
-  letter-spacing: 1.5rem;
   color: white;
+  z-index: 1;
   width: 100%;
   white-space: nowrap;
   justify-content: flex-start;
-  font-size: 2.6rem;
   font-family: serif;
   box-sizing: border-box;
 }
@@ -308,21 +302,28 @@ span:hover{
   display: flex;
   position: absolute;
   justify-content: flex-start;
-  margin-left: .6rem;
-  margin-top: 15.0rem;
+  margin-top: 12.0rem;
   box-sizing: border-box;
 }
 .view_project_text{
   font-size: 1.6rem !important;
-  text-decoration: none;
   color: white;
-  font-weight: 900 !important;
+  z-index: 1;
+  font-family: serif;
+  background-color: transparent;
+  font-weight: 500 !important;
+  border: .2rem solid #001a00;
   white-space: nowrap;
   letter-spacing: .1rem;
   display: block;
-  position: absolute;
-  font-weight: 600;
-  font-family: serif;
+  position: relative;
+}
+.view_project_text:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+  background-color: #001a00;
+  border: 0.1rem solid #001a00;
+  color: white;
 }
 
 
@@ -354,6 +355,7 @@ span:hover{
 .right-container .right-container-button:hover{
 	transition: all 400ms cubic-bezier(.62, .1, .5, 1);
 	width: 14.0rem;
+  box-shadow: 0.1rem .1rem 1rem black;
   border-radius: .5rem;
 }
 .right-container .right-container-button .long-text {

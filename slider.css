@@ -20,7 +20,6 @@
         min-width: 100%;
         min-height: auto;
         display: block;
-        margin-bottom: 10rem;
         position: relative;
     }
 
@@ -28,7 +27,6 @@
     .slideshow-container {
       width: 100%;
       position: relative;
-      margin: auto;
     }
     
     /* Next & previous buttons */ 
@@ -103,7 +101,7 @@
       position: relative;
     }
     .address_text{
-      font-size: 1.6rem;
+      font-size: 2rem;
       font-family: Playfair Display, serif!important;
       color: white;
       letter-spacing: 0.1rem;
@@ -126,7 +124,7 @@
       position: relative;
     }
     .heading{
-      font-size: 3.8rem;
+      font-size: 4.4rem;
       font-family: Playfair Display, serif !important;
       color: white;
       text-align: left;
@@ -181,14 +179,23 @@
       position: relative;
     }
     .learnmore_text{
-      font-family: Playfair Display, serif !important;
-      font-size: 1.3rem;
+      font-family: 'Playfair Display', serif !important;
+      font-size: 1.8rem;
       color: white;
+      background-color: transparent;
       text-align: left;
-      font-weight: 500;
+      border: 0.1rem solid white;
+      font-weight: 200;
       display: block;
       letter-spacing: 0.1rem;
       white-space: nowrap;
+    }
+    .learnmore_text:hover{
+      transform: scale(1.1);
+      transition: 400ms;
+      background-color: #001a00;
+      border: 0.1rem solid #001a00;
+      color: white;
     }
     .description{
       height: auto;
@@ -207,7 +214,7 @@
     }
     .description_info{
       font-family: Playfair Display, serif !important;
-      font-size: 2rem;
+      font-size: 2.8rem;
       color: white;
       text-align: left;
       font-weight: 500;
