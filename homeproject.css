@@ -31,14 +31,14 @@
   border-radius: 50%;
   margin: 0rem !important;
   left: 1.6%;
-  top: 38%;
+  top: 30%;
   display: flex !important;
   position: absolute !important;
 }
 .owl-next{
   width: 3%;
   border-radius: 50%;
-  top: 38%;
+  top: 30%;
   right: 1.6%;
   margin: 0rem !important;
   display: flex !important;
@@ -75,6 +75,7 @@ span{
   height: auto;
   display: block;
   position: relative;
+  background-color: #ebf1f5;
   margin-top: 10rem;
 }
 .sec4_container{
@@ -111,6 +112,7 @@ span{
 }
 .more_text:hover{
   transform: scale(1.1);
+  transition: 1ms;
 }
 .col11, .more_project{
   width: 100%;
@@ -284,6 +286,7 @@ span{
   box-sizing: border-box;
 }
 .address_block11_text .address_block12_text{
+  font-size: 3rem;
   display: block;
   position: absolute;
   height: auto;
@@ -308,11 +311,14 @@ span{
 .view_project_text{
   font-size: 1.6rem !important;
   color: white;
+  height: 4rem;
   z-index: 1;
   font-family: 'Playfair Display', serif;
-  background-color: transparent;
+  background-color: rgb(0, 49, 82);
   font-weight: 500 !important;
-  border: .2rem solid #001a00;
+  border-radius: 5rem;
+  padding: 0rem 2rem 0rem 2rem;
+  border: .2rem solid rgb(0, 49, 82);
   white-space: nowrap;
   letter-spacing: .1rem;
   display: block;
@@ -320,7 +326,7 @@ span{
 }
 .view_project_text:hover{
   transform: scale(1.1);
-  transition: 400ms;
+  transition: 200ms;
   background-color: #001a00;
   border: 0.1rem solid #001a00;
   color: white;

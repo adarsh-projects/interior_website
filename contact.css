@@ -3,13 +3,14 @@
 .contact{
 	width: 100%;
 	height: 100%;
+	margin-top: -3rem;
 	text-align: center;
 }
 
 .navbar{
 	height: 5.0rem;
 	width: 100%;
-	background-color: black;
+	background-color: #003152;
 	color: white;
 }
 
@@ -29,8 +30,10 @@
 	width: 100%;
 	height: auto;
 	display: flex;
-	margin-top: 2rem;
-	padding-bottom: 1rem;
+	background-color: #003152;
+	margin-top: -3rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	flex-wrap: wrap;
 }
 
@@ -39,7 +42,7 @@
 }
 
 .contact-in:nth-child(1) {
-	flex: 29%;
+	flex: 25%;
 	/*background: url('1.jpg');*/
 	color: #fff;
     margin-left: 1.0rem;
@@ -47,9 +50,8 @@
 
 .contact-in:nth-child(2) {
 	flex: 39%;
-    margin: 0rem 1.0rem 0rem 1rem;
 	/*background: url('contactimage.jpg');*/
-	background-color:#262626;
+	background-color:#003152;
 	border-radius: 1rem;
 	box-shadow: -1rem 1rem 3rem #000;
 	justify-content: flex-start;
@@ -81,7 +83,7 @@
 	width: 4.0rem;
 	height: 4.0rem;
 	margin-right: 1.0rem;
-	background: #f5f5f5;
+	background: #003152;
 	color: #111;
 	border-radius: 5.0rem;
 	line-height: 4.0rem;
@@ -130,8 +132,8 @@
 	width: 100%;
 	height: 4.0rem;
 	margin-bottom: 2.0rem;
-	border-bottom: .2rem solid rgb(87, 85, 85);
-	border-right: 0rem solid transparent;
+	border: transparent;
+	border-bottom: .2rem solid #fff !important;
 	outline: none;
 	padding-left: 1rem;
 	color: #fff;
@@ -175,8 +177,8 @@
 	font-weight: 500;
 	letter-spacing: .1rem;
 	font-family: 'Playfair Display', sans-serif;
-	background-color:#262626;
-	border-radius: .2rem;
+	background-color:#003152;
+	border-radius: 1rem;
 	border: .1rem solid transparent;
 	box-shadow: 1rem 1rem 3rem #000;
 }
@@ -225,4 +227,8 @@
 	position: relative;
 	justify-content: flex-start;
 	text-align: left;
+}
+.conHead, .text-center, .text-light, .mx-auto, .my-5{
+	background-color: #003152;
+	margin-bottom: 0rem;
 }

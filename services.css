@@ -17,7 +17,6 @@
     overflow: visible;
     box-sizing: border-box;
 }
-
 .sHeader{
     display: flex;
     position: relative;
@@ -39,7 +38,7 @@
     letter-spacing: .3rem;
     position: relative;
     font-weight: 700;
-    color: #07382d;
+    color: #003152;
     justify-content: center;
     text-align: center;
 }
@@ -68,7 +67,7 @@
     position: relative;
     font-weight: 500;
     justify-content: center;
-    color: #DAA03DFF;
+    color: #008080;
     text-align: center;
 }
 
