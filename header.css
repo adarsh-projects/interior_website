@@ -286,7 +286,7 @@ p{
     display: inline;
     font-size: 3.5rem;
     box-sizing: border-box;
-    color: #19594a   !important;
+    color: #003152   !important;
     text-align: center !important;
     letter-spacing: 0.3rem !important;
     line-height: 1.6rem !important;
@@ -447,7 +447,7 @@ p{
         justify-content: center;
     }
     .hoption:hover{
-        background-color: orange;
-        border: .01rem solid orange;
+        background-color: #003152;
+        border: .01rem solid #003152;
         color: #fff;
     }
