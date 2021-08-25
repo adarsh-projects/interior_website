@@ -131,7 +131,7 @@
     height: 100%;
     display: flex;
     position: relative;
-    margin-top: -5rem;
+    margin-top: -3.5rem;
     justify-content: flex-start;
 }
 .head3_container{
@@ -149,6 +149,9 @@
     position: relative;
     justify-content: flex-start;
     font-size: 2.6rem;
+}
+.head1_text{
+    margin-bottom: 1rem;
 }
 .head3_text{
     width: 100%;

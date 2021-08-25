@@ -2,7 +2,7 @@
     * {box-sizing: border-box;}
     
     body {
-        font-family: Playfair Display, serif; 
+        font-family: 'Playfair Display', serif; 
         margin:0rem;
     }
     
@@ -82,6 +82,7 @@
       justify-content: center;
       box-sizing: border-box;
       display: flex;
+      opacity: 1;
       flex-direction: column;
       position: absolute;
     }
@@ -102,8 +103,8 @@
     }
     .address_text{
       font-size: 2rem;
-      font-family: Playfair Display, serif!important;
-      color: white;
+      font-family: 'Playfair Display', serif!important;
+      color: black;
       letter-spacing: 0.1rem;
       display: block;
       white-space: nowrap;
@@ -125,8 +126,8 @@
     }
     .heading{
       font-size: 4.4rem;
-      font-family: Playfair Display, serif !important;
-      color: white;
+      font-family: 'Playfair Display', serif !important;
+      color: black;
       text-align: left;
       font-weight: 500;
       display: block;
@@ -179,23 +180,26 @@
       position: relative;
     }
     .learnmore_text{
-      font-family: 'Playfair Display', serif !important;
-      font-size: 1.8rem;
-      color: white;
-      background-color: transparent;
-      text-align: left;
-      border: 0.1rem solid white;
+      height: 4rem;
+      width: auto;
+      font-size: 1.6rem;
       font-weight: 200;
+      border-radius: 2rem;
+      color: #fff;
+      /*#111E6C*/
+      background-color: #003152;
+      border: 0.1rem solid #003152;
       display: block;
+      padding: 0rem 2rem 0rem 2rem;
       letter-spacing: 0.1rem;
       white-space: nowrap;
     }
     .learnmore_text:hover{
       transform: scale(1.1);
       transition: 400ms;
+      color: #fff;
       background-color: #001a00;
       border: 0.1rem solid #001a00;
-      color: white;
     }
     .description{
       height: auto;
@@ -213,9 +217,9 @@
       position: relative;
     }
     .description_info{
-      font-family: Playfair Display, serif !important;
+      font-family: 'Playfair Display', serif !important;
       font-size: 2.8rem;
-      color: white;
+      color: black;
       text-align: left;
       font-weight: 500;
       display: block;
@@ -239,4 +243,8 @@
             right:0px;
             opacity:1;
         }
+    }
+    .slide_img{
+      width: 100%;
+      display: block;
     }

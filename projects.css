@@ -4,12 +4,12 @@
     height: auto;
     display: block;
     position: relative;
+    margin-top: 10rem;
 }
 .sec4_container{
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: 10rem;
     flex-direction: column;
     position: relative;
 }
@@ -24,20 +24,26 @@
 .see_more_container{
     width: 100%;
     color: black;
-    display: flex;
+    display: flex;    
+    margin-top: 1.0rem;
+    margin-right: 5.0rem;
     justify-content: flex-end;
     position: relative;
 }
 
 .more_text{
-    color: black;
-    font-size: 2.0rem;
-    margin-right: 12rem;
-    margin-top: -5rem;
+  background-color: transparent;
+  color: black;
+  font-size: 2.0rem;
+  height: 4.0rem;
+  border-radius: .5rem;
+}
+.more_text:hover{
+    transform: scale(1.1);
 }
 .col11, .col12, .col13{
     flex: 1 1 33.3%;
-    width: 33.3%;
+    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -58,20 +64,25 @@
     display: flex;
     position: relative;
 }
+.img12:hover, .img13:hover, .img11:hover .pimg {
+    opacity: 0.3;
+}
 
+.img12:hover, .img13:hover, .img11:hover .pdetails {
+    opacity: 1;
+    letter-spacing: .2rem;
+}
 .img11_container, .img12_container, .img13_container{
     width: 100%;
     min-height: 100%;
     justify-content: center;
     display: flex;
-    margin-left: 0.5rem;
     position: relative;   
 }
 .pimg{
     width: 100%;
-    height: 25rem;
+    height: 30rem;
     display: block;
-    z-index: -1;
     position: relative;
     justify-content: center;
 }
@@ -79,7 +90,6 @@
     min-width: 100%;
     height: auto;
     display: flex;
-    margin: 0rem 10rem 0rem 0rem;
     position: relative;
     justify-content: center;
 }
@@ -95,7 +105,6 @@
     min-width: 100%;
     height: auto;
     display: flex;
-    margin: 5rem 10rem 05rem 0rem;
     position: relative;
     justify-content: center;
 }
@@ -112,14 +121,13 @@
     height: auto;
     justify-content: center;
     display: flex;
-    margin: -5rem 10rem 0rem 10rem;
     position: relative;
     flex-direction: row;
 }
 .scol1_container{
     width: 100%;
     height: 100%;
-    margin: -1rem 10rem 0rem 10rem;
+    margin: -1rem 5rem 0rem 5rem;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -128,26 +136,32 @@
 
 .pdetails{
     width: 100%;
-    height: auto;
-    display: flex;
+    height: 100%;
     position: absolute;
     justify-content: center;
     text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5F5F5F;
+    color: white;
     flex-direction: column;
 }
 
 .pdetails_container{
     height: auto;
-    width: 100%;
-    justify-content: center;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+  width: 80%;
+  left: 20%;
+  top: 10%;
+  justify-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }
 .year{
     height: auto;
     width: 100%;
+    color: white;
     justify-content: flex-start;
     box-sizing: border-box;
     display: flex;
@@ -157,8 +171,6 @@
 .year_container{
     height: auto;
     width: auto;
-    margin-left: 1rem;
-    margin-top: 1rem;
     box-sizing: border-box;
     display: flex;
     position: absolute;
@@ -169,60 +181,57 @@
     position: absolute;
     height: auto;
     width: 100%;
+    z-index: 1;
     color: white;
     letter-spacing: 0.1rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-family: serif;
     box-sizing: border-box;
 }
 .address_block11{
     width: 100%;
     height: auto;
+    margin-top: 14rem;
     display: flex;
     position: absolute;
-    margin-top: 15rem;
     justify-content: flex-start;
     box-sizing: border-box;
-    margin-left: 0.8rem;
 }
 .address_block12{
     width: 100%;
     height: auto;
     display: flex;
+    margin-top: 22rem;
     position: absolute;
-    margin-top: 20rem;
     justify-content: flex-start;
     box-sizing: border-box;
-    margin-left: 0.8rem;
 }
 .address_block11_container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: absolute;
-    justify-content: flex-start;
-    box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  box-sizing: border-box;
 }
 .address_block12_container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: absolute;
-    justify-content: flex-start;
-    box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  box-sizing: border-box;
 }
 .address_block11_text .address_block12_text{
     display: block;
     position: absolute;
     height: auto;
-    letter-spacing: 0.05rem;
-    font-weight: 800;
+    font-weight: bold;
     color: white;
+    z-index: 1;
     width: 100%;
-    font-weight: 900;
     white-space: nowrap;
     justify-content: flex-start;
-    font-size: 2rem;
     font-family: serif;
     box-sizing: border-box;
 }
@@ -230,24 +239,31 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: 15rem;
     position: absolute;
     justify-content: flex-start;
-    margin-left: 0.6rem;
+    margin-top: 12.0rem;
     box-sizing: border-box;
 }
 .view_project_text{
-    font-size: 1.4rem;
-    text-decoration: none;
+    font-size: 1.6rem !important;
     color: white;
-    white-space: nowrap;
-    letter-spacing: 0.1rem;
-    display: block;
-    font-style: bold;
-    position: absolute;
-    font-weight: 700;
+    z-index: 1;
     font-family: serif;
+    background-color: transparent;
+    font-weight: 500 !important;
+    border: .2rem solid #001a00;
+    white-space: nowrap;
+    letter-spacing: .1rem;
+    display: block;
+    position: relative;
 }
+.view_project_text:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+    background-color: #001a00;
+    border: 0.1rem solid #001a00;
+    color: white;
+  }
 /*  footer  */
 .sec5{
     width: 100%;

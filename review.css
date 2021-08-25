@@ -40,7 +40,7 @@
   line-height: 1.0rem;
   letter-spacing: .3rem;
   color: hsl(115, 96%, 20%);
-  font-family: Playfair Display, serif !important;
+  font-family: 'Playfair Display', serif !important;
   justify-content: center;
 }
 
@@ -70,7 +70,7 @@
   font-weight: bold;
   line-height: 2.0rem;
   color: #012119;
-  font-family: Playfair Display, serif !important;
+  font-family: 'Playfair Display', serif !important;
   justify-content: center;
 }
 .freview{
@@ -167,7 +167,7 @@
   font-size: 1.8rem;
   margin-top: 2.0rem;
   text-align: center;
-  font-family: serif !important;
+  font-family: 'Playfair Display',serif !important;
   font-weight: 300;
   line-height: 3.0rem;
 }
@@ -181,7 +181,7 @@
   justify-content: center;
   font-weight: bold;
   font-size: 1.8rem;
-  font-family: serif;
+  font-family: 'Playfair Display', serif;
   color: #00802b;
 }
 .fdesignationtext{
@@ -205,7 +205,7 @@
   display: none;
 }
 .owl-nav{
-  font-family: serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
   bottom: 50%;
   margin-top: 0rem;

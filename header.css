@@ -3,6 +3,10 @@
     1rem = 16px
     100% = 16px
 */
+*{
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
 html{
     font-size: 62.5%;
 }
@@ -187,7 +191,7 @@ p{
 }
 .menu{
     padding: 0rem;
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.5rem;
@@ -209,7 +213,7 @@ p{
     justify-content: center;
     list-style: none;
     box-sizing: border-box;
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0rem;
     line-height: 1.3;
 }
@@ -223,7 +227,7 @@ p{
     justify-content: center;
     list-style: none;
     box-sizing: border-box;
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0rem;
     line-height: 1.3;
 }
@@ -308,7 +312,7 @@ p{
 }
 .logo_row2_text{
     display: block;
-    font-family: Playfair Display, serif!important;
+    font-family: 'Playfair Display', serif!important;
     text-align: center !important;
     justify-content: center !important;
     font-weight: 400 !important;
@@ -318,23 +322,17 @@ p{
     box-sizing: border-box;
 }
 
-/*    
-MUMBAI, MAHARASHTRA
-It’s proudly for us to 
-build stylish & featured
-interior design 
-Learn More 
-*/
-
-
-.sec2{
-    min-width: 100%;
-    min-height: auto;
-    display: block;
-    position: relative;
-  }
-    * {box-sizing: border-box}
-    body {font-family: Verdana, sans-serif; margin:0}
+    .sec2{
+        min-width: 100%;
+        min-height: auto;
+        display: block;
+        position: relative;
+    }
+    * {
+        margin:0;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', serif;
+    }
     .mySlides {display: none}
     img {
       min-width: 100%;
@@ -433,4 +431,23 @@ Learn More
     /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
       .prev, .next,.text {font-size: 11px}
+    }
+
+    .hoption{
+        height: 3.5rem;
+        width: 10rem;
+        border-radius: 5rem;
+        background-color: transparent;
+        border: none;
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        white-space: nowrap;
+        display: block;
+        position: relative;
+        justify-content: center;
+    }
+    .hoption:hover{
+        background-color: orange;
+        border: .01rem solid orange;
+        color: #fff;
     }

@@ -1,3 +1,50 @@
+.ppsec2{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.ppsec2_container{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.project_image{
+    width: 100%;
+    height: 70rem;
+    display: block;
+    z-index: -1;
+    opacity: .5;
+    justify-content: center;
+    position: relative;
+}
+.projectlist{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.projectlist_container{
+    width: 100%;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.project_text{
+    color: black;
+    font-size: 5rem !important;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 900 !important;
+    display: block;
+    white-space: nowrap;
+    margin-top: 15rem;
+    position: absolute;
+    justify-content: center;
+    letter-spacing: 0.1rem !important;
+}
 .sec4{
     width: 100%;
     height: auto;
@@ -70,6 +117,7 @@
 
 .img11:hover .pdetails {
     opacity: 1;
+    letter-spacing: .2rem;
 }
 .img12:hover .pimg {
     opacity: 0.1;
@@ -77,6 +125,7 @@
 
 .img12:hover .pdetails {
     opacity: 1;
+    letter-spacing: .2rem;
 }
 .img13:hover .pimg {
     opacity: 0.1;
@@ -84,6 +133,7 @@
 
 .img13:hover .pdetails {
     opacity: 1;
+    letter-spacing: .2rem;
 }
 
 .img11_container, .img12_container, .img13_container{
@@ -114,11 +164,13 @@
     height: auto;
     display: flex;
     position: relative;
-    margin: 0rem 10rem 0rem 10rem;
     justify-content: center;
 }
-.frow2_container{
+.frow1{
     margin-top: 5rem;
+}
+.frow2_container{
+    margin-top: 1rem;
 }
 .scol1{
     min-width: 100%;
@@ -131,7 +183,6 @@
 .scol1_container{
     width: 100%;
     height: 100%;
-    margin: -1rem 5rem 0rem 5rem;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -241,7 +292,7 @@
     width: 100%;
     white-space: nowrap;
     justify-content: flex-start;
-    font-size: 2.6rem;
+    font-size: 3rem !important;
     font-family: serif;
     box-sizing: border-box;
 }
@@ -251,20 +302,59 @@
     display: flex;
     position: absolute;
     justify-content: flex-start;
-    margin-left: 0.6rem;
-    margin-top: 15rem;
+    margin-top: 12.0rem;
     box-sizing: border-box;
 }
 
 .view_project_text{
     font-size: 1.6rem !important;
-    text-decoration: none;
     color: white;
-    font-weight: 900 !important;
-    white-space: nowrap;
-    letter-spacing: 0.1rem;
-    display: block;
-    position: absolute;
-    font-weight: 600;
+    z-index: 1;
     font-family: serif;
+    background-color: transparent;
+    font-weight: 500 !important;
+    border: .2rem solid #001a00;
+    white-space: nowrap;
+    letter-spacing: .1rem;
+    display: block;
+    position: relative;
+}
+.view_project_text:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+    background-color: #001a00;
+    border: 0.1rem solid #001a00;
+    color: white;
+}
+.pheader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.pheader_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.pheader_text{
+    font-size: 5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    color: #07382d;
+}
+.line{
+    width: 10%;
+    height: .3rem;
+    display: block;
+    position: relative;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 0rem;
+    border: .1rem solid #DAA03DFF;
+    background-color: #DAA03DFF;
 }
