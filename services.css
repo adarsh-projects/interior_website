@@ -113,7 +113,6 @@
     position: relative;
     justify-content: center;
     flex-direction: column;
-    height: auto;
 }
 .row1_col1_container, .row1_col2_container, .row1_col3_container{
     width: 100%;

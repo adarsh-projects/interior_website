@@ -434,9 +434,9 @@ p{
     }
 
     .hoption{
-        height: 3.5rem;
+        height: 4rem;
         width: 10rem;
-        border-radius: 5rem;
+        border-radius: 1rem;
         background-color: transparent;
         border: none;
         font-size: 1.8rem;
