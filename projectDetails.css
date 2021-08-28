@@ -1,138 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
 .sec2{
     width: 100%;
     height: auto;
     display: block;
     position: relative;
+    justify-content: center;
 }
 .sec2_container{
     width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-}
-.pdrow{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: relative;
-}
-.pdrow_container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    flex-direction: row;
-    margin: 10rem 15rem 10rem 15rem;
-}
-.pdcol1, .pdcol2{
-    flex: 1 1 50%;
-    width: 50%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-.pdcol1_container, .pdcol2_container{
-    width: 100%;
     height: 100%;
-    display: flex;
-    position: relative;
-    margin: 0rem 5rem 0rem 5rem;
-    justify-content: center;
-    flex-direction: column;
-}
-/* img */
-.pdimg1, .pdimg2, .pdimg3, .pdimg4{
-    width: 100%;
-    height: 100%;
+    padding: .1rem;
     display: flex;
     position: relative;
     justify-content: center;
-}
-.pdimg1_container, .pdimg2_container, .pdimg3_container, .pdimg4_container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    flex-direction: column;
-}
-.pdimg{
-    width: 100%;
-    height: 90%;
-    display: block;
-    position: relative;
-    justify-content: center;
-}
 
-/* text */
-
-.pdaddress, .pdh1, .pdh2, .pdh3, .pdp1, .pdp2, .pdp3, .pdp4{
+}
+.pdheader, .pdheader_container{
     width: 100%;
     height: auto;
     display: flex;
     position: relative;
+    justify-content: center;
 }
-.pdaddress_container, .pdh1_container, .pdh2_container
-, .pdh3_container, .pdp1_container, .pdp2_container,
- .pdp3_container, .pdp4_container{
+.pdtext, .pdtext_container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    opacity: 0.9;
+    left: 6%;
+    justify-content: flex-start;
+}
+.pdtext_container{
+    flex-direction: column;
+}
+.pdaddress, .pdaddress_container{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     position: relative;
-    flex-direction: column;
 }
 .pdaddress_text{
     width: 100%;
     height: auto;
     display: block;
     position: relative;
-    justify-content: flex-start;
-    font-size: 1.3rem !important;
-    font-family: serif;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-    line-height: 1.7;
-    color: black
+    font-size: 3rem;
+    font-weight: 500;
+}
+.pdh1, .pdh1_container, .pdh3, .pdh3_container, .pdh2, .pdh2_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
 }
 .pdh_text{
     width: 100%;
     height: auto;
     display: block;
-    margin-top: 2rem;
     position: relative;
-    justify-content: flex-start;
-    font-size: 3.2rem !important;
-    font-family: Playfair Display, serif !important;
+    font-size: 6rem;
     font-weight: bold;
-    letter-spacing: 0.1rem;
-    color: black
 }
-.pdp_text{
+.sec3,.sec3_container{
     width: 100%;
     height: auto;
     display: block;
+    background-color: rgb(216, 218, 218);
+    position: relative;
+    justify-content: center;
+}
+.pdimg, .pdimg_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.items{
+	display: flex;
+	flex-wrap: wrap;
+}
+.items .item{
+    padding: 0.7rem;
+    width: calc(100%/2);
+}
+.items .item span{
+	display: flex;
+	width: 100%;
+    height: auto;
+	overflow: hidden;
+}
+.img1{
+    width: 100%;
+    padding: 1rem;
+    height:40rem;
+}
+.pdinfo, .pdinfo_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1rem;
     position: relative;
     justify-content: flex-start;
-    font-size: 1.8rem !important;
-    font-family: Playfair Display, serif !important;
-    font-weight: 300;
-    line-height: 1.7;
-    margin-top: 2rem;
-    letter-spacing: 0.1rem;
-    color: black
+}
+.header1, .pdinfo_text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    letter-spacing: .15rem;
 }
 .pdinfo_text{
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-    justify-content: flex-start;
-    font-size: 1.6rem !important;
-    font-family: Playfair Display, serif !important;
-    font-weight: 300;
-    line-height: 2;
-    margin-top: 2rem;
-    letter-spacing: 0.1rem;
-    color: black
+    font-size: 2rem;
+    font-weight: 500;
+}
+.header1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+@media(max-width:500px){
+    .items .item{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        height: 70rem;
+    }
 }

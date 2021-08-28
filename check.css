@@ -6,6 +6,7 @@
 .wrapper nav{
 	width: 100%;
 	display: flex;
+	padding-bottom: 3rem;
 	position: relative;
 	justify-content: flex-start;
 }
@@ -18,12 +19,14 @@ nav .items .item{
 	padding: .7rem 2.5rem;
 	font-size: 1.8rem;
 	font-weight: 500;
+	margin: .5rem;
 	white-space: nowrap;
 	color: #007bff;
 	border: .2rem solid #007bff;
 	border-radius: 5.0rem;
 	cursor: pointer;
 }
+
 nav .items .active,
 nav .items .item:hover{
  	color: #fff;
@@ -33,7 +36,6 @@ nav .items .item:hover{
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 3.0rem;
 }
 .gallery .image{
 	padding: .7rem;
@@ -93,3 +95,13 @@ nav .items .item:hover{
 		width: 100%;
 	}
 }*/
+@media(max-width: 1400px){
+	.gallery .image{
+		width: calc(100% / 3);
+	}
+}
+@media(max-width: 350px){
+	.gallery .image{
+		width: calc(100% / 2);
+	}
+}
