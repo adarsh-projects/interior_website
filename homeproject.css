@@ -249,7 +249,7 @@ span{
   color: white;
   font-weight: 100;
   letter-spacing: .1rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: 'Playfair Display', serif;
   box-sizing: border-box;
 }
@@ -287,7 +287,7 @@ span{
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.address_block11_text .address_block12_text{
+.address_block11_text, .address_block12_text{
   font-size: 3rem;
   display: block;
   position: absolute;
@@ -295,7 +295,7 @@ span{
   font-weight: bold;
   color: white;
   z-index: 1;
-  width: 100%;
+  width: auto;
   white-space: nowrap;
   justify-content: flex-start;
   font-family: 'Playfair Display', serif;

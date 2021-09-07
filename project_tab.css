@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+.wrapper nav{
+	width: 100%;
+	display: flex;
+	padding-bottom: 3rem;
+	position: relative;
+	justify-content: flex-start;
+}
+nav .items{
+	display: flex;
+	width: 100%;
+	left: 10%;
+}
+nav .items .item{
+	padding: .7rem 2.5rem;
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin: .5rem;
+	white-space: nowrap;
+	color: gray;
+	border-bottom: .3rem solid gray;
+	cursor: pointer;
+}
+
+nav .items .active,
+nav .items .item:hover{
+ 	color: #007bff;
+	background: transparent;
+	border-bottom: .2rem solid#007bff;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery .image{
+	padding: .7rem;
+	width: calc(100% / 4);
+}
+.gallery .image.hide{
+	display: none;
+}
+.gallery .image.show{
+	animation: animate 0.4s ease;
+}
+@keyframes animate{
+	0%{
+		transform: scale(0.5);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+.gallery .image span{
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+}
+.gallery .image img{
+	width: 100%;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+}
+@media(max-width: 1400px){
+	.gallery .image{
+		width: calc(100% / 3);
+	}
+}
+@media(max-width: 350px){
+	.gallery .image{
+		width: calc(100% / 2);
+	}
+}

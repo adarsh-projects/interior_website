@@ -53,7 +53,7 @@
     display: block;
     position: relative;
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: bold;
 }
 .pdh1, .pdh1_container, .pdh3, .pdh3_container, .pdh2, .pdh2_container{
     width: 100%;

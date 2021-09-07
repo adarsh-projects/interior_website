@@ -1,3 +1,34 @@
+<?php
+    if(isset($_POST['submit1'])){
+        $name = $_POST['name1'];
+        $phone_number = $_POST['phno'];
+        $message = $_POST['message1'];
+        
+        $body = 'Name: '.$name.'\nPhone Number: '.$phone_number.'\n Message: '.$message;
+        
+        $apiKey = urlencode('NTQ3MjU1NDM0YzQ4Nzk0YTZmNGE0NTM5NDc0NDYyNzI=');
+        // Message details
+        $numbers = array(918879616692);
+        $sender = urlencode(‘TXTLCL’);
+        $message = rawurlencode($body);
+        
+        $numbers = implode(‘,’, $numbers);
+        
+        // Prepare data for POST request
+        $data = array(‘apikey’ => $apiKey, ‘numbers’ => $numbers, “sender” => $sender, “message” => $message);
+        // Send the POST request with cURL
+        $ch = curl_init(‘https://api.textlocal.in/send/’);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($ch);
+        curl_close($ch);
+        // Process your response here
+        echo $response;
+
+
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,13 +204,12 @@
             </div>
             <div class="contact-in" style="margin-bottom: 1.0rem;">
                 <h1 style="letter-spacing: .3rem;">Send a Message</h1>
-                <form method="POST" action="check.php">
-                    <input type="text" id="name" placeholder="Full Name" class="contact-in-input">
-                    <input type="text" id="email" placeholder="Email" class="contact-in-input">
-                    <input type="text" id="subject" placeholder="Subject" class="contact-in-input">
-                    <input type="text" id="message" placeholder="Message" class="contact-in-input"
+                <form method="POST" action="check()">
+                    <input type="text" name="name1" placeholder="Full Name" class="contact-in-input">
+                    <input type="text" name="phno" placeholder="Phone Number" class="contact-in-input">
+                    <input type="text" name="message1" placeholder="Message" class="contact-in-input"
                         style="height: 8rem;">
-                    <button type="submit" class="contact-in-btn"> Submit </button>
+                    <button type="submit" name="submit1" class="contact-in-btn"> Submit </button>
                 </form>
             </div>
             <div class="contact-in" style="margin-bottom: 1.0rem;">

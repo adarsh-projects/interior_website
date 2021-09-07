@@ -246,7 +246,7 @@
     font-size: 1.8rem;
     font-family: serif;
     box-sizing: border-box;
-    z-index: 3rem;
+    z-index: 1rem;
 }
 .address_block11{
     width: 100%;
@@ -284,18 +284,18 @@
     justify-content: flex-start;
     box-sizing: border-box;
 }
-.address_block11_text .address_block12_text{
+.address_block11_text, .address_block12_text{
     display: block;
     position: absolute;
     height: auto;
     font-weight: bold;
-    letter-spacing: 1.5rem;
+    letter-spacing: 0.1rem;
     color: white;
-    width: 100%;
+    width: auto;
+    font-size: 3rem;
     white-space: nowrap;
     justify-content: flex-start;
-    font-size: 3rem !important;
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
     box-sizing: border-box;
 }
 .view_project, .view_project_container{

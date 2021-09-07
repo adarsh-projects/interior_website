@@ -1,4 +1,4 @@
-
+/*#008080*/
     * {box-sizing: border-box;}
     
     body {
@@ -82,7 +82,7 @@
       justify-content: center;
       box-sizing: border-box;
       display: flex;
-      opacity: 1;
+      z-index: 1;
       flex-direction: column;
       position: absolute;
     }
@@ -107,6 +107,7 @@
       color: black;
       letter-spacing: 0.1rem;
       display: block;
+      font-weight: bold;
       white-space: nowrap;
     }
     .address_block2{
@@ -129,7 +130,7 @@
       font-family: 'Playfair Display', serif !important;
       color: black;
       text-align: left;
-      font-weight: 500;
+      font-weight: bold;
       display: block;
       letter-spacing: 0.1rem;
       white-space: nowrap;
@@ -167,6 +168,7 @@
     .learn_more{
       height: auto;
       width: auto;
+      z-index: 1;
       margin: 2rem 0rem 0rem 9.8rem;
       box-sizing: border-box;
       display: block;
@@ -174,22 +176,22 @@
     }
     .learn_more_container{
       height: auto;
-      width: auto;
-      box-sizing: border-box;
-      display: block;
+      width: 14rem;
+      display: flex;
+      margin: 0rem;
       position: relative;
     }
     .learnmore_text{
       height: 4rem;
       width: auto;
       font-size: 1.6rem;
-      font-weight: 200;
       border-radius: 1rem;
       color: #fff;
-      /*#111E6C*/ 
+      font-weight: bold;
       background-color: #003152;
       border: 0.1rem solid #003152;
       display: block;
+      margin: 0rem;
       padding: 0rem 2rem 0rem 2rem;
       letter-spacing: 0.1rem;
       white-space: nowrap;
@@ -221,7 +223,7 @@
       font-size: 2.8rem;
       color: black;
       text-align: left;
-      font-weight: 500;
+      font-weight: bold;
       display: block;
       letter-spacing: 0.1rem;
       white-space: nowrap;
@@ -246,5 +248,6 @@
     }
     .slide_img{
       width: 100%;
+      opacity: 0.5;
       display: block;
     }
