@@ -3,12 +3,12 @@
 .contact{
 	width: 100%;
 	height: 100%;
-	margin-top: -30px;
+	margin-top: -3rem;
 	text-align: center;
 }
 
 .navbar{
-	height: 50px;
+	height: 5.0rem;
 	width: 100%;
 	background-color: #003152;
 	color: white;
@@ -20,7 +20,7 @@
 
 .navbar ul li a{
 	text-decoration: none;
-	padding: 75px;
+	padding: 7.5rem;
 }
 
 
@@ -31,70 +31,72 @@
 	height: auto;
 	display: flex;
 	background-color: #003152;
-	margin-top: -30px;
-	padding-top: 100px;
-	padding-bottom: 80px;
+	margin-top: -3rem;
+	padding-top: 10rem;
+	padding-bottom: 8rem;
 	flex-wrap: wrap;
 }
 
 .contact-in {
-	padding: 40px 30px;
+	padding: 4.0rem 3.0rem;
 }
 
 .contact-in:nth-child(1) {
 	flex: 25%;
+	/*background: url('1.jpg');*/
 	color: #fff;
-    margin-left: 10px;
+    margin-left: 1.0rem;
 }
 
 .contact-in:nth-child(2) {
 	flex: 39%;
+	/*background: url('contactimage.jpg');*/
 	background-color:#003152;
-	border-radius: 10px;
-	box-shadow: -10px 10px 30px #000;
+	border-radius: 1rem;
+	box-shadow: -1rem 1rem 3rem #000;
 	justify-content: flex-start;
 }
 
 .contact-in:nth-child(3) {
 	flex: 27%;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 1.0rem;
+    margin-left: 1.0rem;
 	padding: 0;
 }
 
 .contact-in h1 {
-	font-size: 24px;
+	font-size: 2.4rem;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 500;
-	margin-bottom: 20px;
+	margin-bottom: 2.0rem;
 }
 
 .contact-in h2 {
-	font-size: 20px;
+	font-size: 2.0rem;
 	font-weight: 400;
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 }
 
 .contact-in h2 i {
-	font-size: 16px;
-	width: 40px;
-	height: 40px;
-	margin-right: 10px;
+	font-size: 1.6rem;
+	width: 4.0rem;
+	height: 4.0rem;
+	margin-right: 1.0rem;
 	background: #003152;
 	color: #111;
-	border-radius: 50px;
-	line-height: 40px;
+	border-radius: 5.0rem;
+	line-height: 4.0rem;
 	text-align: center;
 }
 
 .contact-in p {
 	color: #fff;
 	text-align: left;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 300;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	margin-bottom: 1.0rem;
+	margin-left: 1.0rem;
 }
 
 .contact-in ul {
@@ -109,15 +111,15 @@
 
 .contact-in ul li a {
 	display: block;
-	width: 3.5px;
-	height: 35px;
+	width: 3.5rem;
+	height: 3.5rem;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 5.0rem;
 }
 
 .contact-in ul li a i {
-	font-size: 13px;
-	line-height: 30px;
+	font-size: 1.3rem;
+	line-height: 3.0rem;
 	color: #000;
 }
 
@@ -128,17 +130,17 @@
 
 .contact-in-input {
 	width: 100%;
-	height: 40px;
-	margin-bottom: 20px;
+	height: 4.0rem;
+	margin-bottom: 2.0rem;
 	border: transparent;
-	border-bottom: 2px solid #fff !important;
+	border-bottom: .2rem solid #fff !important;
 	outline: none;
-	padding-left: 10px;
+	padding-left: 1rem;
 	color: #fff;
 	background: transparent;
-	font-size: 12px;
+	font-size: 1.2rem;
 	font-weight: 500;
-	letter-spacing: 1px;
+	letter-spacing: .1rem;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -148,18 +150,18 @@
 
 .contact-in-textarea {
 	width: 100%;
-	height: 40px;
-	margin-bottom: 20px;
+	height: 4.0rem;
+	margin-bottom: 2.0rem;
 	outline: none;
-	padding-top: 5px;
-	padding-left: 5px;
+	padding-top: .5rem;
+	padding-left: .5rem;
 	background: transparent;
-	border-bottom: 2px solid #fff;
-	border-right: 0px solid transparent;
+	border-bottom: .2rem solid #fff;
+	border-right: 0rem solid transparent;
 	color: #fff;
-	font-size: 12px;
+	font-size: 1.2rem;
 	font-weight: 500;
-	letter-spacing: 1px;
+	letter-spacing: .1rem;
 	font-family: 'Playfair Display', sans-serif;
 }
 
@@ -169,16 +171,16 @@
 
 .contact-in-btn {
 	width: 30%;
-	height: 40px;
+	height: 4.0rem;
 	color: #fff;
-	font-size: 12px;
+	font-size: 1.2rem;
 	font-weight: 500;
-	letter-spacing: 1px;
+	letter-spacing: .1rem;
 	font-family: 'Playfair Display', sans-serif;
 	background-color:#003152;
-	border-radius: 10px;
-	border: .1px solid transparent;
-	box-shadow: 10px 10px 30px #000;
+	border-radius: 1rem;
+	border: .1rem solid transparent;
+	box-shadow: 1rem 1rem 3rem #000;
 }
 
 .contact-in-btn:hover{
@@ -192,7 +194,7 @@
 	height: 100%;
 }
 .icon{
-	height: 30px;
+	height: 3rem;
     display: block;
     position: relative;
     justify-content: flex-start;
@@ -228,5 +230,5 @@
 }
 .conHead, .text-center, .text-light, .mx-auto, .my-5{
 	background-color: #003152;
-	margin-bottom: 0px;
+	margin-bottom: 0rem;
 }
